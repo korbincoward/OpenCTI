@@ -22,7 +22,7 @@ I will keep them to 1 sentence here.
 - sudo cp .env.sample .env
 - sudo systemctl status docker
 - sudo  docker-compose up -d
-If docker-compose fails to start you will need to run the following:
+If docker-compose fails to start you will need to run the following:\
 - sudo apt-get remove docker-compose
 - sudo curl -SL https://github.com/docker/compose/releases/latest/download/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
 - sudo chmod +x /usr/local/bin/docker-compose
